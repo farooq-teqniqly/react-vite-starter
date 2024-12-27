@@ -4,9 +4,7 @@
     "lint-staged": "^15.2.11"
   },
   "scripts": {
-    "prepare": "husky install",
-    "pre-commit-check": "npm run lint:all",
-    "lint:all": "npm --prefix ./fe run lint && npm --prefix ./fe run format"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "fe/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
