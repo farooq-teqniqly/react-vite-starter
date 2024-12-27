@@ -8,8 +8,8 @@
   },
   "lint-staged": {
     "fe/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write",
-      "eslint --fix"
+      "npm --prefix ./fe run format",
+      "npm --prefix ./fe run lint"
     ]
   }
 }
