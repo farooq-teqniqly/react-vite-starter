@@ -5,6 +5,6 @@
   "scripts": {
     "prepare": "husky install",
     "pre-commit-check": "npm run lint:all",
-    "lint:all": "npm --prefix ./fe run lint"
+    "lint:all": "npm --prefix ./fe run lint && npm --prefix ./fe run format"
   }
 }
