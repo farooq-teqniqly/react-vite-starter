@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.11"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "pre-commit-check": "npm run lint:all",
+    "lint:all": "npm --prefix ./fe run lint"
+  }
+}
